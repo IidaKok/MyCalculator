@@ -21,5 +21,6 @@
         <item>@id/buttonSulkuAuki</item>
         <item>@id/buttonSulkuKiinni</item>
         <item>@id/buttonProsentti</item>
+        <item>@id/buttonPoista</item>
     </array>
 </resources>
