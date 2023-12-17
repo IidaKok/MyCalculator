@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="button_ids">
+        <item>@id/button0</item>
+        <item>@id/button1</item>
+        <item>@id/button2</item>
+        <item>@id/button3</item>
+        <item>@id/button4</item>
+        <item>@id/button5</item>
+        <item>@id/button6</item>
+        <item>@id/button7</item>
+        <item>@id/button8</item>
+        <item>@id/button9</item>
+        <item>@id/buttonKeno</item>
+        <item>@id/buttonPlus</item>
+        <item>@id/buttonMiinus</item>
+        <item>@id/buttonPiste</item>
+        <item>@id/buttonYht</item>
+        <item>@id/buttonTyhjenna</item>
+        <item>@id/buttonX</item>
+        <item>@id/buttonSulut</item>
+        <item>@id/buttonProsentti</item>
+        <item>@id/buttonPlusMiinus</item>
+    </array>
+</resources>

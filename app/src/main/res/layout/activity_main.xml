@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/etCalc"
+            style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:inputType="textMultiLine"
+            android:lines="2"
+            android:padding="10dp"
+            android:textSize="48sp" />
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:gravity="right"/>
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider"
+            android:layout_marginBottom="20dp"/>
+
+        <TableRow
+            android:gravity="center_vertical|right">
+
+            <Button
+                android:id="@+id/buttonTyhjenna"
+                android:background="@drawable/custom_button"
+                android:text="C"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonSulut"
+                android:background="@drawable/custom_button"
+                android:text="( )"
+                android:textColor="@color/material_dynamic_primary40"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonProsentti"
+                android:background="@drawable/custom_button"
+                android:text="%"
+                android:textColor="@color/material_dynamic_primary40"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonKeno"
+                android:background="@drawable/custom_button"
+                android:text="/"
+                android:textColor="@color/material_dynamic_primary40"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button7"
+                android:background="@drawable/custom_button"
+                android:text="7"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:background="@drawable/custom_button"
+                android:text="8"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:background="@drawable/custom_button"
+                android:text="9"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/buttonX"
+                android:background="@drawable/custom_button"
+                android:text="x"
+                android:textColor="@color/material_dynamic_primary40"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button4"
+                android:background="@drawable/custom_button"
+                android:text="4"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:background="@drawable/custom_button"
+                android:text="5"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:background="@drawable/custom_button"
+                android:text="6"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/buttonMiinus"
+                android:background="@drawable/custom_button"
+                android:text="-"
+                android:textColor="@color/material_dynamic_primary40"
+                android:textSize="24sp"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+                android:background="@drawable/custom_button"
+                android:text="1"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:background="@drawable/custom_button"
+                android:text="2"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:background="@drawable/custom_button"
+                android:text="3"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/buttonPlus"
+                android:background="@drawable/custom_button"
+                android:text="+"
+                android:textColor="@color/material_dynamic_primary40"
+                android:textSize="24sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/buttonPlusMiinus"
+                android:background="@drawable/custom_button"
+                android:text="+/-"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button0"
+                android:background="@drawable/custom_button"
+                android:text="0"
+                android:textColor="#ECA9A9"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonPiste"
+                android:background="@drawable/custom_button"
+                android:text="."
+                android:textColor="#ECA9A9"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonYht"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@color/material_dynamic_primary40"
+                android:text="="
+                android:textSize="24sp" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
