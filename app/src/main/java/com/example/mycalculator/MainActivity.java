@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity {
             String expression = tv1.getText().toString();
             double result;
 
-            Pattern pattern = Pattern.compile("(\\d+)%");
+            Pattern pattern = Pattern.compile("(\\d+(\\.\\d+)?)%");
             Matcher matcher = pattern.matcher(expression);
 
             if (matcher.find()) {
@@ -206,4 +206,5 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
     }
+
 }
