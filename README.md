@@ -1,5 +1,5 @@
 # Calculator App
-The Calculator App is a basic Android application that provides a simple and user-friendly calculator interface for performing arithmetic operations. It is designed to be easy to use, making it suitable for everyday calculations.
+A calculator app for Android that provides a simple and user-friendly calculator interface for performing simple calculations. It is designed to be easy to use, so it is suitable for daily calculations.
 
 
 
