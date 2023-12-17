@@ -133,8 +133,10 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case "buttonPoista":
                     String originalText = tv1.getText().toString();
-                    tv1.setText("");
-                    appendTextWithColor(originalText.substring(0, originalText.length() - 1));
+                    if (originalText.length() > 0) {
+                        tv1.setText("");
+                        appendTextWithColor(originalText.substring(0, originalText.length() - 1));
+                    }
                     break;
             }
             String result = calculate();
