@@ -107,8 +107,11 @@ public class MainActivity extends AppCompatActivity {
             case "buttonTyhjenna":
                 et.setText("");
                 break;
-            case "buttonSulut":
+            case "buttonSulkuAuki":
                 et.setText(et.getText() + "(");
+                break;
+            case "buttonSulkuKiinni":
+                et.setText(et.getText() + ")");
                 break;
             case "buttonProsentti":
                 et.setText(et.getText() + "%");
@@ -135,15 +138,7 @@ public class MainActivity extends AppCompatActivity {
 
                     et.setText(expression + "\n" + String.valueOf(result));
                     previousResult = result;
-                    isPreviousResult = true;
-
-                    /*String expression = et.getText().toString();
-                    double result = evaluateExpression(expression); //viedään laskutoimitus evaluateExpression-metodiin
-
-                    et.setText(expression + "\n" + String.valueOf(result));
-
-                    previousResult = result;
-                    isPreviousResult = true;*/ //asetetaan isPreviousResult trueksi, jotta seuraavan kerran mitä tahansa nappia painaessa mennään ylempänä esitettyyn if-lausekkeeseen
+                    isPreviousResult = true; //asetetaan isPreviousResult trueksi, jotta seuraavan kerran mitä tahansa nappia painaessa mennään ylempänä esitettyyn if-lausekkeeseen
                 } catch (Exception e) {
                     et.setText("Virheellinen laskutoimitus");
                 }

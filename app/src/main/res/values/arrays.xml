@@ -18,8 +18,8 @@
         <item>@id/buttonYht</item>
         <item>@id/buttonTyhjenna</item>
         <item>@id/buttonX</item>
-        <item>@id/buttonSulut</item>
+        <item>@id/buttonSulkuAuki</item>
+        <item>@id/buttonSulkuKiinni</item>
         <item>@id/buttonProsentti</item>
-        <item>@id/buttonPlusMiinus</item>
     </array>
 </resources>

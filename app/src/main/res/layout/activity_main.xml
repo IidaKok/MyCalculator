@@ -25,10 +25,7 @@
             android:lines="2"
             android:padding="10dp"
             android:textSize="48sp" />
-        <EditText
-            android:id="@+id/et"
-            android:layout_width="match_parent"
-            android:gravity="right"/>
+
         <View
             android:id="@+id/divider"
             android:layout_width="match_parent"
@@ -40,16 +37,16 @@
             android:gravity="center_vertical|right">
 
             <Button
-                android:id="@+id/buttonTyhjenna"
+                android:id="@+id/buttonSulkuAuki"
                 android:background="@drawable/custom_button"
-                android:text="C"
-                android:textColor="@color/design_default_color_error"
+                android:text="("
+                android:textColor="@color/material_dynamic_primary40"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/buttonSulut"
+                android:id="@+id/buttonSulkuKiinni"
                 android:background="@drawable/custom_button"
-                android:text="( )"
+                android:text=")"
                 android:textColor="@color/material_dynamic_primary40"
                 android:textSize="24sp" />
 
@@ -170,10 +167,10 @@
             android:layout_marginBottom="20dp">
 
             <Button
-                android:id="@+id/buttonPlusMiinus"
+                android:id="@+id/buttonTyhjenna"
                 android:background="@drawable/custom_button"
-                android:text="+/-"
-                android:textColor="#ECA9A9"
+                android:text="C"
+                android:textColor="@color/design_default_color_error"
                 android:textSize="24sp" />
 
             <Button
